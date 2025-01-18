@@ -125,6 +125,21 @@ main {
     margin-right: 5px;
 }
 
+/* Post */
+
+#post-container {
+    display: grid;
+    grid-template-columns: 78% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "main sidebar";
+    grid-gap: 10px;
+    padding-top: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+
+}
+
 /* Footer */
 
 footer {
